@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>競技プロ個人メモ</title>
-    <link>http://Ushiiin.github.io/kyopuro/</link>
-    <description>Recent content on 競技プロ個人メモ</description>
+    <title>個人メモ</title>
+    <link>https://ushiiin.github.io/kyopuro/</link>
+    <description>Recent content on 個人メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2020 14:17:33 +0900</lastBuildDate><atom:link href="http://Ushiiin.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 14:17:33 +0900</lastBuildDate><atom:link href="https://ushiiin.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
-      <link>http://Ushiiin.github.io/kyopuro/post/start/</link>
+      <link>https://ushiiin.github.io/kyopuro/post/start/</link>
       <pubDate>Sun, 27 Sep 2020 14:17:33 +0900</pubDate>
       
-      <guid>http://Ushiiin.github.io/kyopuro/post/start/</guid>
+      <guid>https://ushiiin.github.io/kyopuro/post/start/</guid>
       <description>適当に前書きなど。</description>
     </item>
     

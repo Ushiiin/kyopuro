@@ -1,6 +1,6 @@
 baseURL = "https://ushiiin.github.io/kyopuro/"
 languageCode = "en-us"
-title = "競技プロ個人メモ"
-theme = "hugo-classic"
+title = "個人メモ"
+theme = "gohugo-theme-ananke"
 publishDir = "docs"
 canonifyurls = true
