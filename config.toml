@@ -1,4 +1,4 @@
-baseURL = "http://ushiiin.github.io/kyopuro/"
+baseURL = "https://ushiiin.github.io/kyopuro/"
 languageCode = "en-us"
 title = "競技プロ個人メモ"
 theme = "hugo-classic"
