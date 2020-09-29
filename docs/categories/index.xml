@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 個人メモ</title>
+    <title>Categories on 個人コンテスト参加メモ</title>
     <link>https://ushiiin.github.io/kyopuro/categories/</link>
-    <description>Recent content in Categories on 個人メモ</description>
+    <description>Recent content in Categories on 個人コンテスト参加メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ushiiin.github.io/kyopuro/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

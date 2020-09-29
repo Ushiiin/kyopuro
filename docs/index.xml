@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>個人メモ</title>
+    <title>個人コンテスト参加メモ</title>
     <link>https://ushiiin.github.io/kyopuro/</link>
-    <description>Recent content on 個人メモ</description>
+    <description>Recent content on 個人コンテスト参加メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2020 14:17:33 +0900</lastBuildDate><atom:link href="https://ushiiin.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 20:31:54 +0900</lastBuildDate><atom:link href="https://ushiiin.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Start</title>
+      <title>Google kickstart round F</title>
+      <link>https://ushiiin.github.io/kyopuro/post/gcjk2020f/</link>
+      <pubDate>Sun, 27 Sep 2020 20:31:54 +0900</pubDate>
+      
+      <guid>https://ushiiin.github.io/kyopuro/post/gcjk2020f/</guid>
+      <description>2020年9月27日にGoogle kickstart round Fがあったので参加した。結果400位くらい。 こちらの時間だと朝8時スタート。早起きがしんどい。 プログラミングコンテストは同じ点数でも提出時間で順位がつくので寝坊はよろしくない。 普通のテストでも遅刻はよくないが、たいてい最初に説明とか配布の時間とかあるので大きな問題にはならないことが多い。
+1問目(ATM Queue) 問題概要 一つのATMにN人が並んでいる。i人目はAi円引き出したいと思っているが、一回にATMで引き出せるお金はX円と決まっている。X円を超えて引き出したい場合にはもう一回並ばないといけない。 目的の金額を引き出してATMの列から去っていく人の順番を出力せよ。
+自分の解法 (ソート) 一回でX円までなので、Ai/Xの切り上げ回(=(Ai+X-1)//X)ATMの操作が必要。 回数が少ない人から抜けていき、回数が同じ場合には前にいる人から抜けていく。 以上の考察より、(並んでいる順番,ATMの操作回数)をタプルとして持って、二つ目のKey(=ATMの操作回数)を優先にソート。
+難易度 ABCだと300点くらい？
+2問目(Metal Harvest) 問題概要 耕したい時間帯がN個[Si,Ei]与えられる。耕作機械は時間Kの間だけ連続で耕すことができる。 耕したい時間帯をすべてカバーするには耕作機械が最低何台必要か。 ただし、同じ耕作機械は時間K使用した後はメンテナンスに入るので一回しか使えない。
+自分の解法 (貪欲) とりあえず時間帯をスタート時間でソート。最初からソートされているかもしれないし、時間帯はかぶっていないようなのでエンド時間でソートしても同じ。 一番最初のスタート時間に機械を起動して、終了時間が耕したい時間帯内であれば即座に次の耕作機械を起動。もし耕す必要がない時間帯なら次のスタート時間まで待って起動。 場合分けが微妙にめんどくさい。
+ 一番最初のスタート時間で起動。起動中の機械の終了時間を保持。 起動中の機械の終了時間がi個目の耕したい時間帯の終わりより後ならi+1個目の耕したい時間帯へ移動。 起動中の機械の終了時間がi個目の耕したい時間帯の間の場合、終了時間に即次の機械を起動。 残りの場合(=起動中の機械の終了時間がi個目の耕したい時間の開始より前)、開始時間に則次の機械を起動。  (耕したい時間帯の終了時間 - 機械の開始時間)/Kの切り上げ回数その時間帯で機械を動かす必要がある。 最後の機械の終了時間を保持。    難易度 ABCだと300-400点くらい？
+3問目(Painters&#39; Duel) 問題概要 一辺Nの正三角形が一辺1の正三角形の部屋に分割されている。辺1の三角形どうしが接している辺には扉がついていて移動可能。 AさんとBさんは特定の部屋からスタートして、AさんBさんの順に交互に移動。どちらも移動できなくなったら終了。片方のみが移動可能の時はひたすら片方のみが移動する。 自分が入った部屋に自分の色を塗っていく。色が塗られた部屋には二度と入れない。つまり、自分が過去に入った部屋、相手が過去に入った部屋には入れない。また、建設中の部屋というのが存在して、AさんもBさんも入れない。 Aさんの色に塗られた部屋の数 - Bさんの色に塗られた部屋の数がスコアとなる。
+ Aさんはスコアを最大化するように動く。 Bさんはスコアを最小化するように動く。  解けなかったが考えたこと 小問1はN=2なので全部の場合を記述できる。 小問2もN&amp;lt;=6なので全探索できそう。再帰で書けそうだけど、AについてはMAXをReturn、BについてはMINをReturnというのをどうやって実装すればいいかわからない。 再帰って答えのGlobal変数を関数内で更新するのかReturnで答えを返すのか悩ましい。
+難易度 ABCだと600点以上であってほしい（願望）</description>
+    </item>
+    
+    <item>
+      <title>おことわり</title>
       <link>https://ushiiin.github.io/kyopuro/post/start/</link>
-      <pubDate>Sun, 27 Sep 2020 14:17:33 +0900</pubDate>
+      <pubDate>Fri, 01 Jan 1999 01:01:01 +0900</pubDate>
       
       <guid>https://ushiiin.github.io/kyopuro/post/start/</guid>
-      <description>適当に前書きなど。</description>
+      <description>参加したコンテストの感想でもメモ程度に。 大体半分くらい解けないので完全な個人記録。</description>
     </item>
     
   </channel>

@@ -3,26 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ushiiin.github.io/kyopuro/tags/google-kickstart/</loc>
+    <lastmod>2020-09-27T20:31:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ushiiin.github.io/kyopuro/post/gcjk2020f/</loc>
+    <lastmod>2020-09-27T20:31:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ushiiin.github.io/kyopuro/post/</loc>
-    <lastmod>2020-09-27T14:17:33+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ushiiin.github.io/kyopuro/post/start/</loc>
-    <lastmod>2020-09-27T14:17:33+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ushiiin.github.io/kyopuro/</loc>
-    <lastmod>2020-09-27T14:17:33+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ushiiin.github.io/kyopuro/categories/</loc>
+    <lastmod>2020-09-27T20:31:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ushiiin.github.io/kyopuro/tags/</loc>
+    <lastmod>2020-09-27T20:31:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ushiiin.github.io/kyopuro/</loc>
+    <lastmod>2020-09-27T20:31:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ushiiin.github.io/kyopuro/post/start/</loc>
+    <lastmod>1999-01-01T01:01:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ushiiin.github.io/kyopuro/categories/</loc>
   </url>
   
 </urlset>

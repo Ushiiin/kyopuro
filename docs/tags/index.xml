@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 個人メモ</title>
+    <title>Tags on 個人コンテスト参加メモ</title>
     <link>https://ushiiin.github.io/kyopuro/tags/</link>
-    <description>Recent content in Tags on 個人メモ</description>
+    <description>Recent content in Tags on 個人コンテスト参加メモ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ushiiin.github.io/kyopuro/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Sep 2020 20:31:54 +0900</lastBuildDate><atom:link href="https://ushiiin.github.io/kyopuro/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google kickstart</title>
+      <link>https://ushiiin.github.io/kyopuro/tags/google-kickstart/</link>
+      <pubDate>Sun, 27 Sep 2020 20:31:54 +0900</pubDate>
+      
+      <guid>https://ushiiin.github.io/kyopuro/tags/google-kickstart/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
